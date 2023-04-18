@@ -1,0 +1,25 @@
+
+input[type=search]{
+    border: 2px solid red;
+    transition: all 0.5s;
+}
+
+input[type=submit]{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;
+}
+
+input[type=search]:focus{
+    border: 10px solid red;
+}
+
+select{
+    border: 10px solid red;
+}
+
+input[type=radio]{
+    border: 10px solid red;
+}
